@@ -1,0 +1,16 @@
+#greeting {
+    text-align: center;
+    color: white;
+    background-color: #3b3b3b;
+    padding: 30px;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.5em;
+  }
+  

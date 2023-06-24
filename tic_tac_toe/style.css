@@ -1,0 +1,38 @@
+#game {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  font-size: 48px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cell:hover {
+  background-color: lightgray;
+}
+
+.cell.X {
+  background-color: lightcoral;
+  color: white;
+}
+
+.cell.O {
+  background-color: lightblue;
+  color: white;
+}

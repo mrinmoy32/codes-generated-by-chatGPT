@@ -1,0 +1,24 @@
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+  
+    <button onclick="displayFormData()">Submit</button>
+  </form>
+  
+  <div id="display-area"></div>
+  
+  <script>
+  function displayFormData() {
+    event.preventDefault();
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var displayArea = document.getElementById("display-area");
+    displayArea.innerHTML = "Name: " + name + "<br>Email: " + email;
+  }
+
+  
+  </script>
+  
